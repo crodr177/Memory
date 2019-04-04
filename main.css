@@ -43,5 +43,26 @@ body {
   padding: 6%;
   margin: 2px;
   background-color: rgb(85, 83, 83);
-  border: 1px solid;
+  border: 1px solid rgb(197, 54, 54);
+  border-radius: 2px;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.match {
+  font-size: 100%;
+}
+
+.show {
+  font-size: 100%;
+}
+
+.open {
+  font-size: 100%;
+}
+
+.unmatch {
+  font-size: 0;
 }
