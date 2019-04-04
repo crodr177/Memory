@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(24, 22, 22);
+  color: white;
+}
+
+#container {
+  margin: auto;
+  width: 1340px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+
+.deck {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  width: 210px;
+  height: 210px;
+  list-style: none;
+  padding: 6%;
+  margin: 2px;
+  background-color: rgb(85, 83, 83);
+  border: 1px solid;
+}
