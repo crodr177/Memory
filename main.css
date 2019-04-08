@@ -45,6 +45,8 @@ body {
   background-color: rgb(85, 83, 83);
   border: 1px solid rgb(197, 54, 54);
   border-radius: 2px;
+  font-size: 0;
+  transition: font-size 200ms;
 }
 
 .disabled {
@@ -63,6 +65,10 @@ body {
   font-size: 100%;
 }
 
-.unmatch {
+.unmatched {
   font-size: 0;
+}
+
+#score {
+  font-size: 20px;
 }
